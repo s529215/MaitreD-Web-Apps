@@ -1,1 +1,33 @@
-
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <title>Maitre D - Austin Barnhart</title>
+            <link rel="stylesheet" href="./css/layout.css">
+            <script src="./javascript/calculate.js"></script>
+        </head>
+        <body>
+            <header>
+                <h1>Maitre D</h1>
+            </header>
+            <hr>
+            <main>
+                <label>Total: </label><input type="number" id="total">
+                <aside>
+                <label>Rate: </label><input type="number" id="rate">
+                </aside>
+                <br>
+                <label>Tip: </label><div id="tip"></div>
+                <br>
+                <label>Tax: </label><div id="tax"></div>
+                <br>
+                <label>Grand Total: </label><div id="gtotal"></div>
+                <br>
+                <input type="submit" value="Calculate" onclick="calculate()">
+            </main>
+        </body>
+        <hr>
+        <footer>
+            <p>&copy; 2020 Austin Barnhart, all rights reserved</p>
+        </footer>
+</html>
