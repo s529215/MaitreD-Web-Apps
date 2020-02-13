@@ -1,0 +1,18 @@
+header{
+    text-align: center;
+    font-size: large;
+}
+main{
+    margin-left: 30em;
+}
+
+aside{
+    float: right;
+}
+
+div{
+    display: inline;
+}
+footer{
+    text-align: center;
+}
